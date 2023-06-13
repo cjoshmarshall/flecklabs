@@ -1,0 +1,32 @@
+.modal-container {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+}
+
+.modal-subcontainer {
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 10px;
+  /* box-shadow: 16px 16px 20px 4px; */
+}
+
+.modal-container_button {
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.modal-button {
+  position: absolute;
+  margin: 0.25em 0.6em;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
